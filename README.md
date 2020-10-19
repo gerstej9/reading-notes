@@ -1,6 +1,5 @@
 # Code 201 Reading Notes
 
-## 
 *Included in this website are the reading notes taken covering the subjects of Javascript, HTML, CSS, and career competency.*
 
 **Table of Contents**

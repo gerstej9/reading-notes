@@ -3,7 +3,7 @@
 *Included in this website are the reading notes taken covering the subjects of Javascript, HTML, CSS, and career competency.*
 
 **Table of Contents**
-1. [Reading 01](reading_1.md)
+1. [Reading 01](class-01.md)
 1. [Reading 02](reading_2.md)
 1. [Reading 03](reading_3.md)
 1. [Reading 04](reading_4.md)

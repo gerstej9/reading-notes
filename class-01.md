@@ -109,7 +109,7 @@
     * Consistent
 
 
-## Javascript $ JQuery Chapter 1
+## Javascript & JQuery Chapter 1
 ### Introduction
 * Javascript allows you to;
     * Acess content within webpages

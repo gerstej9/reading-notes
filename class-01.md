@@ -27,7 +27,7 @@
 * meta elements use http-equiv to define author, pragma, and expiration
 * Escape characters can be used to show characters otherwise used in HTML, such as ampersand escape character is `&gt;`
 
-## Chapter 17
+## HTML & CSS Chapter 17
 * HTML 5 adds new elements for dividing page
 * Header and footer
 * Navigation (nav)
@@ -40,7 +40,7 @@
 * HTML5 uses a elements around a block level element to contain child elements allowing you to turn an entire block into a link
 * Older browsers need help with HTML5 sites meaning you need CSS code to account for this. Work arounds also include HTML.shiv or HTML.shim
 
-## Chapter 18
+## HTML & CSS Chapter 18
 * Websites should be designed for target audience
     * Age range
     * Gender

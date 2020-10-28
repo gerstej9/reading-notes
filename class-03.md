@@ -1,8 +1,7 @@
 <!-- HTML Chapter 3 Lists pp 62-73
 Chapter 13 Boxes pp 300-329
 
-JS Chapter 2 70-73
-Chapter 4 Decisions and Loops pp 162-182 -->
+JS Chapter 4 Decisions and Loops pp 162-182 -->
 # Class 03 Reading Notes
 
 ## HTML Chapter 3: Lists
@@ -71,4 +70,66 @@ Chapter 4 Decisions and Loops pp 162-182 -->
 * CSS3 also allows box shadows ```box-shadow``` with ```horizontal offset, vertical offset, blur distance, and spread of shadow``` as the four arguments as well as a color. Can suffice with the first two values and a color
 * CSS3 allows for rounded corners using the ```border-radius``` property
 * Border radius also allows for elliptical shapes if you specify different horizontal and vertical radii values
-* 
+
+## Javascript Chapter 4: Decisions and Loops
+
+### If...else Statements
+* If...else statements checks a condition and if true executes one code block else executes another code block
+* ```if(x>y){prompt();} else{alert();}```
+* Statements inside an if statement must be followed by a semi-colon
+* If statements can be executed with just an if statement
+* A series of if statements will result in all being checked even if a match has been found
+
+### Switch Statements
+* A switch statement starts with a variable called the swich value, each case indicates a possible value for the variable and the code that should run if that variable matches true
+* The statement lives in one code block and if none of the variable conditions are met then default is executed
+* There is a break after each case to tell the Javascript interpreter that it has finished the switch statement
+* ```switch(level){case 'one': title = 'level 1'; break; case 'two': title = 'level 2'; break; default: title ='test'; break;}```
+* Switch statements have a default if none of the cases match
+* If a match is found the break statement prevents any of the rest of the switch statement from running
+
+### Type Coercion and Weak Typing
+* Javascript will try to make sense of a wrong data type instead of notifying an error
+* Type coercion involves converting data behind the scenes
+* Javascript uses weak typing because data type for a value can change. Strong typing in other languages requires that you specify what data type each variable will be
+* Type coercion can lead to unexpected values so it can be beneficial to use strict equals operators such as ```=== or !===``` instead of ```== or !=```
+
+### Truthy and Falsy Values
+* Due to type coercion values in JavScript can be treated as true or false
+* False values include false, 0, empty string '', Nan(Not a number), or a variable with no value assigned
+* True values include true, 1, 'carrot' strings with content, number calculations, 'true' as a string, '0' as a string, 'false' written as a string
+
+
+### Checking Equality and Existence
+* Because the presence of an object or an array can be considered truthy it is often used to check for the existence of an element on a page
+* A unary operator returns a result with one operand such as looking for the presence of an element.
+
+### Short Circuit Values
+* Logical operators are processed left to right, they short-circuit as soon as they have a result but they return the value that stopped the processing which is not necessarily true or false
+* Logical operators will not always return true or false because sometimes they will return a value treated as truthy or falsy even though its not boolean
+* As soon as a truthy value is found the remaining options are not checked therefore sometimes programmers will put the code most likely to return true first in OR operations and false answers first in AND operators
+* They will also place the options requiring the most processing power last just in case another value returns true and they do not need to run.
+
+## Loops
+* Loops check a condition and if true the code block will run. This repeats until condition returns false
+* Three different types of loops
+* For loops run for a specified number of times
+* While loops are for an unspecifed amount of times so long as condition is true
+* Do While loops similar to while but will always run the code at least once even if the condition is false
+* Loops consist of keyword, condition counter, opening curley brace, code to execute during loop and closing curley brace
+* ```for (var i = 0; i<10; i++){ document.write(i);}```
+* A for loop uses a counter as a condition and is made up of three statements
+    * Initialization ```var i =0;```
+    * Condition ```i<10;```
+    * Update ```i++```
+* Two keywords are common with loops, break and continue. Break tells the interpreter to go to the next statement while continue tells the interpreter to stop the current iteration and then update and check the condition again.
+* Loops are helpful for dealing with arrays because you can cycle through all the values of an array
+* While loops operate similar to for loops but with a different structure
+    * ```var i =1; var msg =''; while (i<10){msg += i{'x 5 =' +(i *5) + '<br/>; i++;}```
+    * Two statements the first uses the +- operator meaning msg = msg +'newMsg' ```msg+=```
+    * The second increments the counter variable by one ```i++```
+* Do while loops are similar to a while loop but the codeblock comes first so that the code will run once no matter what and then loop while the condition is met.
+* ```do{code block here; i++;} while (i>5);```
+
+
+[Table of Contents](README.md)

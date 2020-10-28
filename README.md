@@ -5,7 +5,7 @@
 **Table of Contents**
 1. [Reading 01](class-01.md)
 1. [Reading 02](class-02.md)
-1. [Reading 03](reading_3.md)
+1. [Reading 03](class-03.md)
 1. [Reading 04](reading_4.md)
 1. [Reading 05](reading_5.md)
 1. [Reading 06](reading_6.md)

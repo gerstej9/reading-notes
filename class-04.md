@@ -35,7 +35,7 @@
 * ```position```
     * ```position:static``` normal flow
     * ```p.example{position:relative; top: 100px; left:100px;}``` relative positioning
-    * ```h1{position:absolute; top 0px; left:500px; width: 250px;}`` absolute positioning
+    * ```h1{position:absolute; top 0px; left:500px; width: 250px;}``` absolute positioning
     * ```position:fixed; top:0px; left:0px; padding:10px;}```
 * ```z-index:10;``` higher z-index means on top of lower index numbers, also known as stacking context
 * ```float:right;``` float places content as far right or left of box but should be used with width property otherwise it will take up entire width

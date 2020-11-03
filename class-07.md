@@ -42,11 +42,11 @@ can access that data later
 ## JS Chapter 3: Functions, Methods, and Objects
 
 ### Object constructors can use a function as a template for creating objects
-    * ```function Hotel(name, rooms) {this.name = name; this.rooms; = rooms}```
-    * Name of a constructor function usuallyl begins with a capital letter as a reminder to use
-    the ```new``` keyword when creating a new object using that function
-    * Create new instances of an object using constructor function
-    * ```quayHotel = new Hotel('Quay',40, 25);```
+* ```function Hotel(name, rooms) {this.name = name; this.rooms; = rooms}```
+* Name of a constructor function usuallyl begins with a capital letter as a reminder to use
+the ```new``` keyword when creating a new object using that function
+* Create new instances of an object using constructor function
+* ```quayHotel = new Hotel('Quay',40, 25);```
 * You can add properties using ```name.new_property = ''``` notation
 * ```delete name.keyword``` to delete properties
 * This keyword refers to one object usally the object in which the function operates

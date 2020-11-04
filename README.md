@@ -10,7 +10,7 @@
 1. [Reading 05](class-05.md)
 1. [Reading 06](class-06.md)
 1. [Reading 07](class-07.md)
-1. [Reading 08](reading_8.md)
+1. [Reading 08](class-08.md)
 1. [Reading 09](reading_9.md)
 1. [Reading 10](reading_10.md)
 1. [Reading 11](reading_11.md)

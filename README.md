@@ -13,7 +13,7 @@
 1. [Reading 08](class-08.md)
 1. [Reading 09](class-09.md)
 1. [Reading 10](class-10.md)
-1. [Reading 11](reading_11.md)
+1. [Reading 11](class-11.md)
 1. [Reading 12](reading_12.md)
 1. [Reading 13](reading_13.md)
 1. [Reading 14](reading_14.md)

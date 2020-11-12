@@ -16,5 +16,5 @@
 * [Reading 11](class-1*md)
 * [Reading 12](class-12.md)
 * [Reading 13](class-13.md)
-* [Reading 14](reading_14.md)
+* [Reading 14](class-14.md)
 * [Reading 15](reading_15.md)

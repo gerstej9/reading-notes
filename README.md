@@ -1,6 +1,25 @@
-# Code 201 Reading Notes
+# Reading Notes
+*Included in this website are the reading notes taken during Code Fellows courses covering the subjects of Javascript, HTML, CSS, and career competency.*
 
-*Included in this website are the reading notes taken covering the subjects of Javascript, HTML, CSS, and career competency.*
+## Github Portfolio
+### [https://github.com/gerstej9](https://github.com/gerstej9)
+
+## Code 102
+
+**Table of Contents**
+* [Growth Mindset](growthmindset.md)
+* [Markdown](markdown.md)
+* [Reading Notes Class 1](reading_class_1.md)
+* [Revisions and the Cloud](revisions_cloud.md)
+* [Git Practice](gitpractice.md)
+* [Reading Notes Class 2](reading_class_2.md)
+* [Webpage Design with CSS](css_webpage.md)
+* [Reading Notes Class 3](reading_class_3.md)
+* [Intro, Scripts, Operators, and Functions](functions.md)
+* [Reading Notes Class 4](reading_class_4.md)
+
+
+## Code 201
 
 **Table of Contents**
 * [Reading 01](class-0*md)
@@ -18,3 +37,8 @@
 * [Reading 13](class-13.md)
 * [Reading 14](class-14.md)
 * [Reading 15](reading_15.md)
+
+## Code 301
+
+
+## Code 401

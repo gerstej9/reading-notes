@@ -43,6 +43,7 @@
 **Table of Contents**
 * [Reading 01](class_301_01.md)
 * [Reading 02](class_301_02.md)
-* [Reading 02](class_301_03.md)
+* [Reading 03](class_301_03.md)
+* [Reading 04](class_301_04.md)
 
 ## Code 401

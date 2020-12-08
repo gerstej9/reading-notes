@@ -47,5 +47,6 @@
 * [Reading 04](class_301_04.md)
 * [Reading 05](class_301_05.md)
 * [Reading 06](class_301_06.md)
+* [Reading 07](class_301_07.md)
 
 ## Code 401

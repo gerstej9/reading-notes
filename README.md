@@ -53,6 +53,6 @@
 * [Reading 10](class_301_10.md)
 * [Reading 11](class_301_11.md)
 * [Reading 12](class_301_12.md)
-* [Reading 13](class_301_12.md)
+* [Reading 13](class_301_13.md)
 
 ## Code 401

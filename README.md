@@ -4,7 +4,7 @@
 ## Github Portfolio
 ### [https://github.com/gerstej9](https://github.com/gerstej9)
 
-## Code 102
+## Code 102 - Intro to Software Development
 
 **Table of Contents**
 * [Growth Mindset](growthmindset.md)
@@ -19,7 +19,7 @@
 * [Reading Notes Class 4](reading_class_4.md)
 
 
-## Code 201
+## Code 201 - Foundations of Software Development
 
 **Table of Contents**
 * [Reading 01](class-0*md)
@@ -38,7 +38,7 @@
 * [Reading 14](class-14.md)
 * [Reading 15](reading_15.md)
 
-## Code 301
+## Code 301 - Intermediate Software Development
 
 **Table of Contents**
 * [Reading 01](class_301_01.md)
@@ -57,4 +57,4 @@
 * [Reading 14](class_301_14.md)
 * [Reading 15](class_301_15.md)
 
-## Code 401
+## Code 401 - Advanced Software Development

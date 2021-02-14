@@ -23,7 +23,7 @@
 * Because superagent must retrieve information and therefore takes time it can be handled with a Promise or async/await functionality. 
 * Code examples of this would be as follows ```superagent.get('targeturl').then(data => do something with data).catch(error => console.error(error));```
 * The above example utilizes a promise wherein the superagent function will retrieve information from a target url, the .then means when the data is returned do something with it. In this case "data" is a placeholder and can be called anything. We utilize a .catch() afterwards in case an error occurs during the retrieval or manipulation of the data.
-* The superagent request can also be handled with async/await functionality like so ```async function superagentRequest = () => {const data = await superagent.get('targeturl); do something with data}
+* The superagent request can also be handled with async/await functionality like so ```async function superagentRequest = () => {const data = await superagent.get('targeturl); do something with data}```
 
 ## Promises
 * A promise is an object that produces a value or an error at some point in the future. Promises are used for functions that take an amount of time, if that function executes succesfully it will return a value and if not it will return an error. Promises use "resolve" and "reject" as parameters and in the promise function "resolve" and "reject" are used to indicate a succesful or unsuccesful scenario much like .then() and .catch() or try{}/catch{}.

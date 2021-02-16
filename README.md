@@ -61,3 +61,4 @@
 
 **Table of Contents**
 * [Reading 01](401/class_01.md)
+* [Reading 02](401/class_02.md)

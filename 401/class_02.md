@@ -1,37 +1,57 @@
-# Code 401 Class 02 Reading Notes
+## What is the difference between PUT and PATCH in regards as HTTP methods
+* Simplistically PUT requires the overwriting/updating of an entire entity whereas PATCH allows for updating of partial segments.
+* Both PUT and PATCH are methods for updating data.
+* PUT will update and overwrite data for instance if you have an object with three properties and use a PUT to update only one it will wipe the other two. Likewise if you used a PUT with the one property on a new object that object would now have the one property.
+* PATCH on the other hand allows you to modify, in the example above, the one property specified while leaving the other two properties untouched. In that sense PATCH is more delicate the PUT
+* [Source: Rapid API](https://rapidapi.com/blog/put-vs-patch/)
 
-## Node.js and Express
-* Node.js is a runtime environment for javascript that is single-threaded and runs on Chrome's V8
-* Express is a node web framework that allows node to perform REST actions or in other words HTTP related actions such as get, post, put, delete
-* Express requires three snippets of code in node, require, .use/.get, and .listen
-* The first imports express, the second provides the route path and the third starts the server on a specified port
-* Express is capable of using various forms of middleware, packages availabe through npm that allow for further functionality.
-* In addition users can create their own functionality and import it into files using module.exports function
-* Express allows for asynchronous APIs, route handling and built in error handling.
-* In addition express works with templating agents such as mustache or ejs to create page content.
-* Express can also interact with databases such as PostgreSQL and MongoDB.
-* Express is considered an unopinionated framework because there are many ways to achieve a certain goal and therefore it has great flexibility.
-[Source MDN Webdocs](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+## Resources for Mocking an API
+* There are various reasons why a developer might want to avoid external APIs during a development phase. For these reasons there are resources available that allow you to "mock" an API for development and testing. Below are three resources that can be used for API mocking.
+* Mirage JS available through npm
+* Jest available through npm
+* Cypress
+* [Source: Valentino Gagliardi](https://www.valentinog.com/blog/fake/)
 
-## npm
-* npm stands for node package manager and is a large repository of packages that offer functionality in node.
-* Developers can create packages and upload them to npm and others can access them through the npm command line interface
-* Some packages have very niche functionality while others are widely used
-[Source npm docs](https://docs.npmjs.com/about-npm)
+## Compare and Contrast Swagger and apiDoc.js
+* Both apiDoc and swagger focus on documentation of api's 
+* According to the apiDoc homepage, "apiDoc creates a documentation from API annotations in your source code"
+* Swagger, according to their own homepage, "takes the manual work out of API documentation, with a range of generating visualizing, and maintaining API Docs"
+* Both Swagger and apiDoc use json schema for operation
+* apiDoc allows for inline documentation
+* Swagger allows design of api structure which allows machines to work with your api easier
+* Sources
+* [Dev.to](https://dev.to/themsiqueira/document-a-api-nodejs-with-apidoc-69k)
+* [Swagger](https://swagger.io/)
+* [apiDoc.js](https://apidocjs.com/)
 
-## TDD
-* TDD stands for test-driven development and is a structure used by tech companies to ensure bug free code.
-* While TDD may take slightly longer the time spent testing often is rewarded by the lack of time needed for fixing bugs in the long run
-* TDD has become common place in many developers lives and is part of AGILE.
-* TDD is a skill that is acquired through practice and while beginning coders can create a small test and create code to pass it, more advanced coders are able to plan out test suites for each step of whole projects
-* Individual and group mistakes can be made with TDD and it is important to make sure that everyone as an individual and groups as a whole know how to properly implement TDD for it to be most effective.
-[Source Agile Alliance](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'tdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 
-## CI/CD
-* CI stands for continuous integration and it is the process of code passing testing when it is uploaded to a central repository so that merge conflicts are less likely to arise and code is synchronized more often. This prevents branch merging from becoming unwieldly.
-* CD is continuous development which is a result of continuous intergration. Because code is constantly being tested in chunks before being intergrated, code can then be deployed bug free relatively easily at shorter intervals. 
-* CD also stands for continuous deployment which is a result of continuous intergration and continuous development.
-[Source Github Professional Guides](https://www.youtube.com/watch?v=xSv_m3KhUO8)
+## Compare and Contrast SOAP and ReST
+* SOAP stands for Simple Object Access Protocol and is a protocol
+* REST stands for Representational State Transfer and is an architecture
+* SOAP takes more bandwidth and works only with XML formats
+* REST does not need as much bandwidth and is more flexible, it is also able to use SOAP but not vice versa
+* REST is considered a "Restful" service in that it can use GET, POST, PUT, and DELETE
+* Both have their advantages and disadvantages for instance REST is beneficial in stateless environments, when caching is not needed in great amounts and when bandwidth is limited
+* SOPA is beneficial for asynchronous processing and stateful operations
+* [Source: Guru99](https://www.guru99.com/comparison-between-web-services.html)
+
+
+## Define the following Terms
+* Web Server
+  * A web server is comprised of both hardware and software, a computer that stores the software and website's files and an HTTP server in the form of software, which understands URLs and HTTP
+* Express
+  * Express is a Node web framework that provides the ability to write handlers for requests with HTTP verbs, it is able to intergrate view rendering agents for templating and allows for addition of middleware.
+* Routing
+  * Routing has to do with the determination of how a certain application will respond to a client request in terms of pointing to a specific path and depends on which HTTP method is used.
+* WRRC
+  * WRRC stands for Web Request Response Cycle
+  * The request response cycle has to do with a client building a request for information that a server receives and then sends a response baack to the client.
+* Sources
+* [MDN Webdocs Web Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
+* [MDN Webdocs Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+* [Express.js](http://expressjs.com/en/starter/basic-routing.html)
+* [Turing.io](https://backend.turing.io/module2/lessons/how_the_web_works_http)
+
 
 
 [Table of Contents](README.md)

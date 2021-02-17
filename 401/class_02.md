@@ -1,3 +1,5 @@
+# Code Fellows 401 Class 02 Notes
+
 ## What is the difference between PUT and PATCH in regards as HTTP methods
 * Simplistically PUT requires the overwriting/updating of an entire entity whereas PATCH allows for updating of partial segments.
 * Both PUT and PATCH are methods for updating data.

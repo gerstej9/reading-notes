@@ -1,59 +1,46 @@
 # Code 401 Class 02 Reading Notes
 
-## What is the difference between PUT and PATCH in regards as HTTP methods
-* Simplistically PUT requires the overwriting/updating of an entire entity whereas PATCH allows for updating of partial segments.
-* Both PUT and PATCH are methods for updating data.
-* PUT will update and overwrite data for instance if you have an object with three properties and use a PUT to update only one it will wipe the other two. Likewise if you used a PUT with the one property on a new object that object would now have the one property.
-* PATCH on the other hand allows you to modify, in the example above, the one property specified while leaving the other two properties untouched. In that sense PATCH is more delicate the PUT
-* [Source: Rapid API](https://rapidapi.com/blog/put-vs-patch/)
+## Real World Uses for Middleware
+* Middleware can be used effectively for error-handling
+* Middleware can also be used for request validation
+* Lastly middleware can be used for logging certain information such as the path, method, and time of each request
 
-## Resources for Mocking an API
-* There are various reasons why a developer might want to avoid external APIs during a development phase. For these reasons there are resources available that allow you to "mock" an API for development and testing. Below are three resources that can be used for API mocking.
-* Mirage JS available through npm
-* Jest available through npm
-* Cypress
-* [Source: Valentino Gagliardi](https://www.valentinog.com/blog/fake/)
+## True or false: The route handler is middleware
+* Route handlers are not middleware by definition they are handler functions. When there is one callback function this holds true, however, middleware functions can be inserted into the route handler function
 
-## Compare and Contrast Swagger and apiDoc.js
-* Both apiDoc and swagger focus on documentation of api's 
-* According to the apiDoc homepage, "apiDoc creates a documentation from API annotations in your source code"
-* Swagger, according to their own homepage, "takes the manual work out of API documentation, with a range of generating visualizing, and maintaining API Docs"
-* Both Swagger and apiDoc use json schema for operation
-* apiDoc allows for inline documentation
-* Swagger allows design of api structure which allows machines to work with your api easier
-* Sources
-* [Dev.to](https://dev.to/themsiqueira/document-a-api-nodejs-with-apidoc-69k)
-* [Swagger](https://swagger.io/)
-* [apiDoc.js](https://apidocjs.com/)
+## In what ways can a middleware function end the process and send data to the browser?
+* Middleware functions can use a response. to send information back to the client side or they can use a next() which will then kick back to the following server operation
 
+## At what point in the request lifecycle can you inject middleware?
+* Middleware can be injected after the request has been made and before the response has been sent.
+* For instance middleware error handlers can be injected if there is a request for a falty path
 
-## Compare and Contrast SOAP and ReST
-* SOAP stands for Simple Object Access Protocol and is a protocol
-* REST stands for Representational State Transfer and is an architecture
-* SOAP takes more bandwidth and works only with XML formats
-* REST does not need as much bandwidth and is more flexible, it is also able to use SOAP but not vice versa
-* REST is considered a "Restful" service in that it can use GET, POST, PUT, and DELETE
-* Both have their advantages and disadvantages for instance REST is beneficial in stateless environments, when caching is not needed in great amounts and when bandwidth is limited
-* SOPA is beneficial for asynchronous processing and stateful operations
-* [Source: Guru99](https://www.guru99.com/comparison-between-web-services.html)
+## What can cause express to error with "Request header sent twice, cannot start a second response"
+* Calling next() twice or any response. after another has already been sent within a function or callback will result in this error
 
+## Define the following terms
+* Middleware
+  * Middleware refers to code that is imported into the server that can be used in between the request and response of a server
+* Request Object
+  * Is the information sent from the client to the server including the path and http method
+* Response Object
+  * The response object is the information sent from the server to the client and can be a redirect, json object, file download or various other actions
+* Application middleware
+  * Application middleware is software that operates in between the request and response cycle that plays a role in the function of the application such as database middleware
+* Routing middleware
+  * Routing middleware is software that operates between the request and response cycle that plays a role in path routing such as error handling middleware
+* Test Driven Development
+  * Test driven development is an aspect of AGILE develoment and operates on the principle of testing code as it is developed. This process takes slightly longer in the development phase but that is greatly offset by the reduction in time needed for fixing bugs. In addition it allows for continuous intergration and continuous development/deployment.
+* Behavior testing
+  * Behavior testing is another aspect of AGILE that specificies testing of units of software be driven by the desired behavior of the unit.
 
-## Define the following Terms
-* Web Server
-  * A web server is comprised of both hardware and software, a computer that stores the software and website's files and an HTTP server in the form of software, which understands URLs and HTTP
-* Express
-  * Express is a Node web framework that provides the ability to write handlers for requests with HTTP verbs, it is able to intergrate view rendering agents for templating and allows for addition of middleware.
-* Routing
-  * Routing has to do with the determination of how a certain application will respond to a client request in terms of pointing to a specific path and depends on which HTTP method is used.
-* WRRC
-  * WRRC stands for Web Request Response Cycle
-  * The request response cycle has to do with a client building a request for information that a server receives and then sends a response baack to the client.
-* Sources
-* [MDN Webdocs Web Server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server)
-* [MDN Webdocs Express/Node Introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
-* [Express.js](http://expressjs.com/en/starter/basic-routing.html)
-* [Turing.io](https://backend.turing.io/module2/lessons/how_the_web_works_http)
-
+## Sources
+* [Stack Overflow Middlware](https://stackoverflow.com/questions/58925276/what-is-the-difference-between-a-route-handler-and-middleware-function-in-expres#:~:text=They%20are%20not%20middleware%20functions,the%20only%20one%20callback%20function.)
+* [TutorialsPoint Express Middleware](https://www.tutorialspoint.com/expressjs/expressjs_middleware.htm)
+* [Stack Overflow Request Headers](https://stackoverflow.com/questions/7042340/error-cant-set-headers-after-they-are-sent-to-the-client)
+* [Cake PHP Request and Response Objects](https://book.cakephp.org/3/en/controllers/request-response.html#:~:text=The%20request%20and%20response%20objects,HTTP%20responses%20from%20your%20controllers.)
+* [Wikipedia Middleware Definition](https://en.wikipedia.org/wiki/Middleware#:~:text=Middleware%20is%20computer%20software%20that,available%20from%20the%20operating%20system.&text=Middleware%20makes%20it%20easier%20for,specific%20purpose%20of%20their%20application.)
+* [Wikipedia Behavior Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development)
 
 
 [Table of Contents](README.md)

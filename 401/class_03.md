@@ -1,4 +1,4 @@
-# Code 401 Class 02 Reading Notes
+# Code 401 Class 03 Reading Notes
 
 ## Real World Uses for Middleware
 * Middleware can be used effectively for error-handling

@@ -64,3 +64,4 @@
 * [Reading 02](401/class_02.md)
 * [Reading 03](401/class_03.md)
 * [Reading 04](401/class_04.md)
+* [Reading 06](401/class_06.md)

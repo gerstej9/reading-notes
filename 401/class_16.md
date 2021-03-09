@@ -15,14 +15,7 @@
 * [Source Dan Siwiec on Medium](https://medium.com/dan-on-coding/testing-event-driven-systems-63c6b0c57517)
 
 ## Define the following terms
-* Server
-  * A server is a program that is running and able to be connected to by various clients. it is the main hub so to speak
-* Pub/Sub
-  * Pub/sub is an asynchronous messaging system that can be used as message based middleware or for events. It offers message storage and delivery. Part of its purpose is to decouple applications that produce events from the applications that process events.
-  * [Source Google Cloud Docs](https://cloud.google.com/pubsub/docs/overview)
-* WRRC
-  * WRRC stands for Web Request Response Cycle
-  * The request response cycle has to do with a client building a request for information that a server receives and then sends a response baack to the client.
+* 
 
 
 [Table of Contents](README.md)

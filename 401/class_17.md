@@ -1,4 +1,4 @@
-# Code 401 Class 16 Reading Notes
+# Code 401 Class 17 Reading Notes
 
 ## What is the difference between a FIFO and standard queue
 * A FIFO queues have similar features to standard queues but also are able to perform exactly-once proccessing or in other words making sure they read/write only one exact time. FIFO queues help to stop unintentional duplicates.

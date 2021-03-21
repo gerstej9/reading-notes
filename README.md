@@ -76,3 +76,4 @@
 * [Reading 17](401/class_17.md)
 * [Reading 18](401/class_18.md)
 * [Reading 19](401/class_19.md)
+* [Reading 26](401/class_26.md)

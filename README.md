@@ -81,3 +81,7 @@
 * [Reading 28](401/class_28.md)
 * [Reading 29](401/class_29.md)
 * [Reading 31](401/class_31.md)
+* [Reading 32](401/class_32.md)
+* [Reading 33](401/class_33.md)
+* [Reading 34](401/class_34.md)
+* [Reading 35](401/class_35.md)

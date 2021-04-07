@@ -1,4 +1,4 @@
-# Code 401 Class 34 Reading Notes
+# Code 401 Class 36 Reading Notes
 
 ## What are the advantages of storing tokens in 'Cookies' vs. 'Local Storage'?
 * Local storage is easier but is more vulnerable to security hacks
